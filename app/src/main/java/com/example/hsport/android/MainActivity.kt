@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import com.example.hsport.mylibrary.MyClass
 
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -20,6 +21,9 @@ class MainActivity : AppCompatActivity() {
 
         val strings = arrayOf("one", "four")
         println(strings[1])
+
+        val c = MyClass()
+        println(c.string)
 
         Log.d(TAG, "onCreate")
 
